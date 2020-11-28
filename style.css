@@ -1,0 +1,91 @@
+body{
+	font-family: 'Mukta', sans-serif;
+	color: white;
+}
+
+p,h5{
+	margin: 0px;
+}
+
+.logo p{
+	position: relative;
+    top: 7px;
+    font-size: 35px;
+    color: white;
+}
+
+.logo span{
+    font-size: 14px;
+    position: relative;
+    top: -7px;
+}
+
+.logo img{
+	width: 75px;
+}
+
+.details{
+
+}
+
+.details h5{
+	position: relative;
+    top: 5px;
+}
+
+.details p{
+    font-size: 18px;
+    position: relative;
+    top: 5px;
+}
+
+.banner{
+	background: url('images/indiatrucks.jpg') no-repeat;
+	background-size: cover;
+	background-position: -1%;
+	height: 100vh;
+}
+
+.quote {
+    position: absolute;
+    top: 75%;
+    text-align: center;
+	width: 100%;
+}
+
+.address{
+	position: absolute;
+	bottom: 0px;
+	padding: 10px 20px;
+	width: 100%;
+}
+
+@media (max-width: 1200px){
+	.banner{
+		background-position: 0%;
+	}	
+}
+
+@media (max-width: 767px){
+    .quote {
+	    top: 65%;
+	}
+
+	.quote h1{
+		font-size:30px;
+	}
+
+	.quote h3{
+		font-size:18px;
+	}
+
+	.address h5{
+        font-size:12px;
+	}
+}
+
+@media (max-width: 576px){
+	.banner{
+		background-position: 90%;
+	}	
+}
